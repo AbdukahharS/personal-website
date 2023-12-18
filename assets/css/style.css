@@ -120,6 +120,26 @@ h6 {
   text-decoration: none;
 }
 
+#header .profile .download {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#header .profile .download a {
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 7px;
+  transition: 0.3s;
+}
+
+#header .profile .download a:hover {
+  background: #149ddd;
+  color: #fff;
+}
+
 #main {
   margin-left: 300px;
 }
@@ -236,6 +256,8 @@ h6 {
   height: 100vh;
   background: url('../img/hero-bg.jpg') top center;
   background-size: cover;
+  padding: 1rem;
+  max-width: 100vw;
 }
 
 #hero:before {
@@ -258,6 +280,7 @@ h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  max-width: calc(100% - 2rem);
 }
 
 #hero h1 {
