@@ -1,6 +1,3 @@
-const age = document.querySelector('#age')
-const currentYear = new Date().getFullYear()
-age.innerHTML = currentYear - 2004
 ;(function () {
   'use strict'
 
